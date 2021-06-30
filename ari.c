@@ -10,6 +10,8 @@ float sentences=0;
 for(int i=0;i<strlen(s);i++){
 if(isalnum(s[i])){
 characters +=1;
+}else if(s[i]==' '){
+  words +=1;
 }else if(s[i]=='.'||s[i]=='!'||s[i]=='?'){
 sentences +=1;
 }
