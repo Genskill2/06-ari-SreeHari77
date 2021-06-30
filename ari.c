@@ -15,7 +15,7 @@ sentences +=1;
 }
 }
 int index;
-index= 4.71*characters/words + 0.5*words/sentences - 21.43;
+index= 4.71*(characters/words) + 0.5*(words/sentences) - 21.43;
 index +=1;
 if(index==1){return "Kindergarden";}
 if(index==2){return "First/Second Grade";}
